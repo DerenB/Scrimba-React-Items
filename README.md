@@ -1,6 +1,7 @@
 # Scrimba-React-Items
 
 - Following the Scrimba Intro to React course
+- This ReadMe contains the notes for all sections
 
 # Requirements
 
@@ -20,3 +21,30 @@
 - Add Babel to the script type:
   - `<script src="index.js" type="text/babel"></script>`
 
+# 01 : First React ==============================
+
+### Setup
+
+- Add CDN links (found in README)
+- Add HTML element with an id
+  - Example: `<div id="root"></div>`
+  - This is where the React will render
+
+### Render Items
+
+- Render React using the "root" element
+- Example:
+```
+ReactDOM.render(<h1>Hello Everyone</h1>, document.getElementById("root"))
+```
+
+# 02 : JSX ==============================
+
+- html syntax in JavaScript
+- Can create a html block and assign to variable, then return variable
+
+# 03 : React 18 Changes ==============================
+
+- Imports are a little different
+- Content is rendered differently
+- New Methods are in 03 File > index.js
