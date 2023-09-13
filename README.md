@@ -47,4 +47,28 @@ ReactDOM.render(<h1>Hello Everyone</h1>, document.getElementById("root"))
 
 - Imports are a little different
 - Content is rendered differently
-- New Methods are in 03 File > index.js
+
+### Import Lines:
+
+- `import React from "react"`
+- `import ReactDOM from "react-dom/client"`
+
+### Render the Items
+
+- Create the Root Variable
+  - `const root = ReactDOM.createRoot(document.getElementById("root"));`
+- Render the Root Variable
+  - `root.render(navbar);`
+
+# 04 : Custom Components
+
+- Put custom items inside a function
+  - Function returns the output
+- Call the function
+
+### Formatting Notes
+
+- Have to use Pascal Case
+  - Ex: ThisIsMyVariable
+  - (capitalize the first words)
+- Call with "< />"
