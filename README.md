@@ -65,6 +65,7 @@ ReactDOM.render(<h1>Hello Everyone</h1>, document.getElementById("root"))
 - Put custom items inside a function
   - Function returns the output
 - Call the function
+- Can add parameters
 
 ### Formatting Notes
 
