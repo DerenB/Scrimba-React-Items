@@ -71,5 +71,5 @@ ReactDOM.render(<h1>Hello Everyone</h1>, document.getElementById("root"))
 
 - Have to use Pascal Case
   - Ex: ThisIsMyVariable
-  - (capitalize the first words)
+  - (capitalize the first word in the variable)
 - Call with "< />"
