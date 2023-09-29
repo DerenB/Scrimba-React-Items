@@ -18,6 +18,8 @@ function App() {
       <Navbar />
       <div className="content">
         <Home />
+        <br />
+        <br />
         <h1>{ title }</h1>
         <p>Liked { likes } times</p>
         <p>{person.name} is {person.age}</p>
